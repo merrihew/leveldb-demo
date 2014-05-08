@@ -1,0 +1,24 @@
+{
+  "name": "leveldb-demo",
+  "version": "0.0.0",
+  "description": "LevelDB demo files from Atlanta Node.js Meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/merrihew/leveldb-demo.git"
+  },
+  "author": "Tom Merrihew <tom.merrihew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merrihew/leveldb-demo/issues"
+  },
+  "homepage": "https://github.com/merrihew/leveldb-demo",
+  "dependencies": {
+    "async": "^0.8.0",
+    "level": "^0.18.0",
+    "lodash": "^2.4.1"
+  }
+}
