@@ -1,7 +1,7 @@
 "use strict";
 
-var levelup = require("level");
-var db = levelup(__dirname + "/db");
+var level = require("level");
+var db = level(__dirname + "/db");
 
 var batch = [
 	{ type: "put", key: "key-001", value: new Date().toString() },
